@@ -19,7 +19,7 @@
                 "template": {
                     "metadata": {
                         "annotations": {
-                            "build_number": "20240125.26"
+                            "build_number": "20240125.27"
                         },
                         "labels": {
                             "identifier": "container"
