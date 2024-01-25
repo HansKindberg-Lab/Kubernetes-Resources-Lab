@@ -19,7 +19,7 @@
                 "template": {
                     "metadata": {
                         "annotations": {
-                            "build_number": "20240125.21"
+                            "build_number": "20240125.23"
                         },
                         "labels": {
                             "identifier": "container"
@@ -34,7 +34,7 @@
                                         "value": "http://+:5000"
                                     }
                                 ],
-                                "image": "docker.io/example-company/aspnet-razor:test-d80be2e0",
+                                "image": "docker.io/example-organization/aspnet-razor:test-22abaff2",
                                 "imagePullPolicy": "Always",
                                 "name": "container",
                                 "ports": [
