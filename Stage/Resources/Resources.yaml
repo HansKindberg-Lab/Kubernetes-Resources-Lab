@@ -12,7 +12,7 @@ items:
     template:
       metadata:
         annotations:
-          build_number: "20240126.4"
+          build_number: "20240126.9"
         labels:
           identifier: container
       spec:
@@ -20,7 +20,7 @@ items:
         - env:
           - name: ASPNETCORE_URLS
             value: http://+:5000
-          image: docker.io/example-organization/aspnet-razor:stage-5da1297f
+          image: image-registry.openshift-image-registry.svc:5000/example-namespace-stage/aspnet-razor:stage-362e35ea
           imagePullPolicy: Always
           name: container
           ports:
