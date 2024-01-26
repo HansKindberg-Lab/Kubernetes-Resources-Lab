@@ -12,7 +12,7 @@ items:
     template:
       metadata:
         annotations:
-          build_number: "20240126.2"
+          build_number: "20240126.3"
         labels:
           identifier: container
       spec:
